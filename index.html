@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chiranjeevi Dhaba | Authentic Firewood Cooking · Hyderabad & Bhimavaram</title>
+<meta name="description" content="Chiranjeevi Dhaba: authentic firewood-cooked dhaba food by true Megastar fans. Branches in Nallagandla, Hyderabad and Bhimavaram, West Godavari. Ramba Chicken, Sri Devi Chicken, Supreme Biryani and more.">
+<meta property="og:title" content="Chiranjeevi Dhaba – Taste the Tradition">
+<meta property="og:description" content="Authentic firewood cooking with Mega vibes. Hyderabad · Bhimavaram.">
+<meta property="og:image" content="assets/signboard.png">
+<meta name="theme-color" content="#d9201c">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Poppins:wght@400;600;800&family=Noto+Sans+Telugu:wght@500;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="loader" id="loader"><span class="brandlogo"></span><div class="flame-bar"><span></span></div></div>
+<canvas id="embers" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="Chiranjeevi Dhaba home">
+    <span class="brandlogo"></span>
+    <span class="logo-en">DHABA</span>
+  </a>
+  <nav id="navlinks">
+    <a href="#branches">Branches</a>
+    <a href="#signature">Specials</a>
+    <a href="#menu">Full Menu</a>
+    <a href="#vibe">Vibe</a>
+    <a href="#fans">Mega Fans</a>
+    <a href="#reviews">Reviews</a>
+  </nav>
+  <button class="lang" id="lang" aria-label="Toggle Telugu or English">తెలుగు</button>
+  <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<main id="top">
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <div class="cursor" id="cursor" aria-hidden="true"><i data-i="flame"></i></div>
+  <div class="halftone" aria-hidden="true"></div>
+  <div class="floaters" aria-hidden="true">
+    <span class="fl chili" style="--x:7%;--y:22%;--d:7s"></span>
+    <span class="fl flame" style="--x:91%;--y:13%;--d:9s"><i data-i="flame"></i></span>
+    <span class="fl star" style="--x:13%;--y:78%;--d:8s"><i data-i="star"></i></span>
+    <span class="fl star sm" style="--x:46%;--y:10%;--d:10s"><i data-i="star"></i></span>
+    <span class="fl leaf" style="--x:93%;--y:55%;--d:7.5s"></span>
+    <span class="fl flame sm" style="--x:3%;--y:50%;--d:8.5s"><i data-i="flame"></i></span>
+  </div>
+  <div class="polaroids" aria-hidden="true">
+    <figure class="pol p1"><img src="assets/supreme-biryani.png" alt=""><figcaption>Supreme Biryani</figcaption></figure>
+    <figure class="pol p2"><img src="assets/firewood.png" alt=""><figcaption>Real Firewood</figcaption></figure>
+    <figure class="pol p3"><img src="assets/kaju-tomato.png" alt=""><figcaption>Kaju Tomato</figcaption></figure>
+    <figure class="pol p4"><img src="assets/signboard.png" alt=""><figcaption>Nallagandla</figcaption></figure>
+  </div>
+
+  <div class="hero-inner">
+    <p class="eyebrow" data-en="★ A MEGA FAN'S OWN DHABA ★" data-te="★ మెగా అభిమానుల ధాబా ★">★ A MEGA FAN'S OWN DHABA ★</p>
+    <h1 class="title"><span class="te glow">చిరంజీవి</span><span class="en">DHABA</span></h1>
+    <p class="tag" data-en="Taste the Tradition with Authentic Firewood Cooking" data-te="కట్టెల పొయ్యి మీద వండిన అసలైన సాంప్రదాయ రుచి">Taste the Tradition with Authentic Firewood Cooking</p>
+    <div class="cta">
+      <a class="btn hot" href="#branches"><i data-i="pin"></i><span data-en="Find Your Branch" data-te="మీ బ్రాంచ్">Find Your Branch</span></a>
+      <a class="btn ghost" href="#menu"><i data-i="flame"></i><span data-en="See Full Menu" data-te="మెనూ చూడండి">See Full Menu</span></a>
+    </div>
+    <div class="stats">
+      <div><b data-count="2">0</b><small>Branches</small></div>
+      <div><b data-count="25" data-suffix="K+">0</b><small>Insta Family</small></div>
+      <div><b data-count="2876" data-suffix="+">0</b><small>Google Reviews</small></div>
+      <div><b data-count="60" data-suffix="+">0</b><small>Dishes</small></div>
+    </div>
+  </div>
+  <a class="scroll" href="#branches" aria-label="Scroll down"><span></span></a>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="marquee"></div></div>
+
+<!-- ================= BRANCHES ================= -->
+<section id="branches" class="sec">
+  <p class="kicker reveal">ఒకే రుచి · ఎన్నో ఊర్లు</p>
+  <h2 class="h2 reveal"><span>OUR</span> BRANCHES</h2>
+  <p class="sub reveal">One Mega family, many cities. Pick yours.</p>
+  <div class="tabs reveal" id="tabs" role="tablist"></div>
+  <div class="branch reveal" id="branch"></div>
+</section>
+
+<!-- ================= MUGGURU MONAGALLU ================= -->
+<section class="mugguru">
+  <div class="mug-inner reveal">
+    <div class="mug-text">
+      <p class="kicker">NEW · 3 STAR ITEMS</p>
+      <h2 class="comic">MUGGURU<br>MONAGALLU!</h2>
+      <p>Three new star starters, one MEGA experience.</p>
+    </div>
+    <div class="mug-cards" id="mugguru"></div>
+  </div>
+</section>
+
+<!-- ================= SIGNATURE ================= -->
+<section id="signature" class="sec dark">
+  <p class="kicker reveal">మా స్పెషల్స్</p>
+  <h2 class="h2 reveal"><span>MEGA</span> SPECIALS</h2>
+  <p class="sub reveal">Cooked on firewood, served with fire. Tap <b class="hl">Order</b> to send your order straight to WhatsApp.</p>
+  <div class="filters reveal" id="sigFilters">
+    <button class="on" data-f="all">All</button>
+    <button data-f="nv"><span class="vg nv"></span>Non-Veg</button>
+    <button data-f="v"><span class="vg v"></span>Veg</button>
+  </div>
+  <div class="grid" id="sigGrid"></div>
+</section>
+
+<!-- ================= FULL MENU ================= -->
+<section id="menu" class="sec">
+  <p class="kicker reveal">పూర్తి మెనూ</p>
+  <h2 class="h2 reveal"><span>FULL</span> MENU</h2>
+  <p class="sub reveal">Every item and every price. All prices include 5% GST. <b class="hl">Gold ★</b> = house favourites.</p>
+  <div class="menu-tools reveal">
+    <label class="search"><i data-i="search"></i><input id="menuSearch" type="search" placeholder="Search dishes… e.g. Ramba, Biryani, Paneer" aria-label="Search the menu"></label>
+    <div class="vegtoggle" id="vegToggle">
+      <button class="on" data-t="all">All</button><button data-t="v"><span class="vg v"></span>Veg</button><button data-t="nv"><span class="vg nv"></span>Non-Veg</button>
+    </div>
+  </div>
+  <div class="menu-board" id="menuBoard"></div>
+  <p class="menu-note reveal">Menu from the Nallagandla branch, April 2026. Bhimavaram has new additions, so ask your server!</p>
+  <div class="cta center reveal"><a class="btn wa-btn" id="menuWa" target="_blank" rel="noopener"><i data-i="whatsapp"></i>Order on WhatsApp</a></div>
+</section>
+
+<!-- ================= VIBE ================= -->
+<section id="vibe" class="sec dark vibe">
+  <p class="kicker reveal">ధాబా వైబ్</p>
+  <h2 class="h2 reveal"><span>INSIDE</span> THE DHABA</h2>
+  <p class="sub reveal">Real mud chulhas, Megastar murals on every wall, and pulkas flying off the fire in front of you.</p>
+  <div class="bento">
+    <figure class="b1 reveal"><img src="assets/firewood.png" alt="Firewood chulhas in the kitchen" loading="lazy"><figcaption><i data-i="flame"></i>Real firewood chulhas, no gas shortcuts</figcaption></figure>
+    <div class="reveal feature f1"><i data-i="brush"></i><h3>Mega Murals</h3><p>Walls painted with the Megastar's blockbuster titles in bold Telugu pop-art. Every corner is a photo spot.</p></div>
+    <div class="reveal feature f2"><i data-i="roti"></i><h3>Live Pulka Counter</h3><p>Watch your pulkas made fresh, just ₹12 each. Order more, trust us.</p></div>
+    <div class="reveal feature f3"><i data-i="people"></i><h3>Family Friendly</h3><p>Kids, gangs, families. Sunday lunch here is a full-on festival.</p></div>
+    <div class="reveal feature f4"><i data-i="pot"></i><h3>Mud Batti Cooking</h3><p>Slow-cooked on wood-fired mud battis, just like the highway dhabas.</p></div>
+  </div>
+</section>
+
+<!-- ================= STORY ================= -->
+<section id="story" class="sec">
+  <p class="kicker reveal">మా కథ</p>
+  <h2 class="h2 reveal"><span>THE</span> STORY</h2>
+  <div class="timeline">
+    <div class="tl reveal"><i class="num">1</i><small>The Dream</small><h3>Admiration Turned Into Flavour</h3><p>Admiration, passion and days of hard work for the one hero they grew up adoring.</p></div>
+    <div class="tl reveal"><i class="num">2</i><small>9 April 2025</small><h3>Nallagandla Gets Fired Up</h3><p>Soft launch in Hyderabad with real firewood, real dhaba taste, and housefull weekends from day one.</p></div>
+    <div class="tl reveal"><i class="num">3</i><small>The Blessing</small><h3>Megastar Said "Continue"</h3><p>Chiranjeevi garu's team met the founders, saw their genuine respect, and graciously gave consent to carry on. Then came the MEGA moment: meeting the Boss himself.</p></div>
+    <div class="tl reveal"><i class="num">4</i><small>11 November</small><h3>Bhimavaram, We're Here!</h3><p>Branch 2 opens in West Godavari with a bigger kitchen, outdoor and AC seating, and new dishes. Delayed by the cyclone, but worth the wait.</p></div>
+    <div class="tl reveal next"><i class="num">5</i><small>Next</small><h3>Your City?</h3><p>The Mega family keeps growing. Watch this space.</p></div>
+  </div>
+</section>
+
+<!-- ================= FANS ================= -->
+<section id="fans" class="sec dark fans">
+  <p class="kicker reveal">మెగా ఫ్యాన్ జోన్</p>
+  <h2 class="h2 reveal"><span>MEGA</span> FAN ZONE</h2>
+  <div class="fanbox reveal">
+    <img class="fanphoto" src="assets/mega-moment.png" alt="Chiranjeevi Dhaba founders with Megastar Chiranjeevi">
+    <div class="fantext">
+      <i class="bigstar" data-i="star"></i>
+      <p class="quote">"A MEGA dream come true."</p>
+      <p class="by">Our inspiration, our emotion, our forever hero. Named with love, and run with Megastar Chiranjeevi garu's gracious consent.</p>
+      <p class="promise">"We will never do anything that brings disrepute to your name." The Chiranjeevi Dhaba team</p>
+    </div>
+  </div>
+  <div class="cards3">
+    <div class="card reveal"><div class="cimg"><img src="assets/birthday.png" alt="Megastar birthday celebration" loading="lazy" style="object-position:center 18%"></div><h3><i data-i="cake"></i>Boss Birthday Bash</h3><p>Megastar's birthday is a festival here, with cake and whistles. Director Bobby Kolli joined the celebrations too!</p></div>
+    <div class="card reveal"><div class="cimg donate" aria-label="500 meals served"><i data-i="pot" class="dpot"></i><b data-count="500" data-suffix="+">0</b><span>MEALS SERVED</span><small>Cyclone relief · Bhimavaram</small></div><h3><i data-i="heart"></i>Food for 500</h3><p>With MLA Sri Pulaparthi Ramanjaneyulu garu's support, we served meals to 500 people in cyclone-affected areas of Bhimavaram.</p></div>
+    <div class="card reveal"><div class="cimg"><img src="assets/celebration.png" alt="Mega family at the dhaba" loading="lazy" style="object-position:center 30%"></div><h3><i data-i="people"></i>Mega Family</h3><p>Come in as a fan, leave as family. Celebrity visits, birthday cakes, Sunday crowds. It's always a celebration here.</p></div>
+  </div>
+</section>
+
+<div class="gallery" aria-hidden="true"><div class="gtrack" id="gtrack"></div></div>
+
+<!-- ================= REVIEWS ================= -->
+<section id="reviews" class="sec">
+  <p class="kicker reveal">కస్టమర్ మాటలు</p>
+  <h2 class="h2 reveal"><span>CUSTOMER</span> BYTES</h2>
+  <div class="bigrating reveal"><b>4.1</b><span class="stars" style="--r:4.1"></span><small>2,876+ reviews on Google</small></div>
+  <div class="reviews" id="revs"></div>
+  <div class="cta center reveal">
+    <a class="btn hot" href="https://www.instagram.com/chiranjeevi_dhaba/" target="_blank" rel="noopener"><i data-i="insta"></i>Follow @chiranjeevi_dhaba</a>
+    <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Chiranjeevi+Dhaba+Nallagandla" target="_blank" rel="noopener"><i data-i="google"></i>Review us on Google</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span class="brandlogo flogo"></span>
+  <p class="ftag">Taste the Tradition with Authentic Firewood Cooking</p>
+  <div class="fcols" id="fcols"></div>
+  <div class="social">
+    <a href="https://www.instagram.com/chiranjeevi_dhaba/" target="_blank" rel="noopener"><i data-i="insta"></i>Instagram</a>
+    <a href="https://www.threads.net/@chiranjeevi_dhaba" target="_blank" rel="noopener"><i data-i="threads"></i>Threads</a>
+  </div>
+  <p class="small">© <span id="yr"></span> Chiranjeevi Dhaba · Made with love by Mega fans</p>
+  <p class="credit" id="credit"></p>
+</footer>
+
+<div class="fab">
+  <a id="fabWa" class="wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i data-i="whatsapp"></i><span class="tip">Order on WhatsApp</span></a>
+  <a id="fabCall" class="call" aria-label="Call the dhaba"><i data-i="phone"></i><span class="tip">Call Now</span></a>
+</div>
+
+<script src="icons.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
